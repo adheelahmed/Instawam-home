@@ -49,12 +49,11 @@
  
  }
  
- .image-slider-container .image-slider{
-     width: 200px;
-     margin: -300px auto 0;
+ .image-slider-container .carousel{
      overflow: visible;
  }
- .image-slider img{
-     border-radius: 20px;
-     -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255, 0), rgba(255,255,255, .69));
+ .carousel img{
+     border-radius: 10px;
+     -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255, 0), rgba(255,255,255, .2));
  }
+
