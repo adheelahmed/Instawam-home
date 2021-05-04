@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face
+ {
+    font-family: billabong;
+    src: url(billabong.ttf);
+  }
+
+.page
+{
+    position: absolute;
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+.head
+{
+    position: relative;
+    font-family: billabong;
+    font-weight: 500;
+    font-size: 60px;
+    width: 100%;
+    height: 70px;
+}
+
+.image-slider{position: relative;
+   top: 50%;
+   width: 200px;
+   height: 300px;
+}
+.image-gallery
+{
+    position: relative;
+}
+.about
+{
+    position: relative;
+}
+.image-slider-container{
+    position: relative;
+    top: 50px;
+    width: 100%; 
+    height: 600px;
+    overflow: hidden;
+ 
+ }
+ 
+ .image-slider-container .image-slider{
+     width: 200px;
+     margin: -300px auto 0;
+     overflow: visible;
+ }
+ .image-slider img{
+     border-radius: 20px;
+     -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255, 0), rgba(255,255,255, .69));
+ }
